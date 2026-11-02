@@ -7,6 +7,7 @@ Deutschsprachige, responsive Webapp rund ums gesunde Abnehmen. **Ohne Kalorientr
 - BMI und Gewichtsbereich zur Orientierung für Erwachsene
 - Energiebedarf und moderates Kaloriendefizit nach Mifflin-St Jeor
 - Sechs filterbare Guides mit vollständigen Artikeln
+- Vierwöchiger Bewegungsplan für Anfänger: auswählbare Wochen und Tage, Übungsanleitungen mit leichteren Varianten, feste Ruhetage; ohne Speicherung von Trainingsdaten
 - Hinweise, Rechenmethoden und verlinkte Quellen
 - Gesundheitswerte bleiben im Arbeitsspeicher des Browsers, keine Konten oder Datenbank
 
