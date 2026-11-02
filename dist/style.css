@@ -9,3 +9,56 @@
 .arrow{display:inline-block;width:16px;height:16px;vertical-align:middle;flex-shrink:0}.heading-leaf,.tip-flower{font-family:Arial,sans-serif;font-variant-emoji:text}
 
 main:focus{outline:none}.heading-leaf svg{width:30px;height:30px}.tip-flower{width:150px;height:150px;bottom:-35px;right:-25px;opacity:.55}.tip-card p,.tip-bottom,.tip-line{position:relative;z-index:1}@media(max-width:600px){.heading-leaf svg{width:24px;height:24px}nav{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;overflow:visible}nav a{justify-content:center;padding:10px 3px;font-size:9px}.tip-flower{width:145px;height:145px}}
+
+/* Appearance: preserve Calion's sage palette in both themes. */
+:root{color-scheme:light}
+.theme-toggle{display:grid;place-items:center;flex-shrink:0;width:34px;height:34px;border:1px solid #dfe5d7;border-radius:50%;background:#f2f5ec;color:#54714e}
+.theme-toggle:hover{background:#e6eddd}
+.theme-toggle svg{width:18px;height:18px}
+.theme-toggle .theme-sun{display:none}
+:root[data-theme=dark]{color-scheme:dark;--green:#adc6a0;--ink:#e0e9dd;--muted:#b1bcad;--line:#344239;--bg:#141c18;--sage:#27392c;--white:#1c2720;--orange:#dfad8b}
+[data-theme=dark] .theme-toggle{background:#2b3c2f;border-color:#455940;color:#d4e4be}
+[data-theme=dark] .theme-toggle:hover{background:#3b4f37}
+[data-theme=dark] .theme-toggle .theme-moon{display:none}
+[data-theme=dark] .theme-toggle .theme-sun{display:block}
+[data-theme=dark] :is(.sidebar,.topbar,.tool-card,.start-card,.article-card,.panel,.info-box){background:var(--white)}
+[data-theme=dark] :is(.side-label,.eyebrow,.card-kicker,.article-meta,.section-title>span,.heading-tag,.topbar,footer,label span,.panel-number,.scale-labels,.form-privacy){color:#a9b99f}
+[data-theme=dark] :is(nav a,.side-bottom,.side-bottom small,.side-note p,.step>span,footer button,.footer-brand,.section-title>a){color:#afc0a4}
+[data-theme=dark] nav a.active{background:#2e4131;color:#d2e4be}
+[data-theme=dark] nav a:hover{background:#293a2d}
+[data-theme=dark] :is(.side-note,.tiny-tag,.step b,.avatar,.article-meta span:first-child){background:#29392c;color:#b8cca8;border-color:#3d4e37}
+[data-theme=dark] :is(.card-link,.step){border-color:var(--line)}
+[data-theme=dark] :is(.card-link,.article-bottom){color:#b4cea2}
+[data-theme=dark] :is(.brand,.side-note a){color:#bdd5ab}
+[data-theme=dark] .tool-icon.sage{background:#2b3e2c;color:#b1c89f}
+[data-theme=dark] .tool-icon.peach{background:#46372c;color:#e1b08b}
+[data-theme=dark] .tool-icon.yellow{background:#413e28;color:#d5c787}
+[data-theme=dark] .hero{background:#294a35}
+[data-theme=dark] .hero-copy{background:radial-gradient(ellipse at bottom left,#3a5941,#294a35 80%)}
+[data-theme=dark] .button{background:#adc6a0;color:#18271c}
+[data-theme=dark] .button:hover{background:#c0d7b3}
+[data-theme=dark] .button.light{background:#e0e7d1;color:#294a35}
+[data-theme=dark] .photo-note{background:#1c2a21ed;color:#d9e5ca}
+[data-theme=dark] :is(.tip-card,.result-panel){background:#253529;border-color:#3b4d34}
+[data-theme=dark] :is(.tip-top,.tip-card p,.tip-bottom,.result-panel p,.result-hint,.result-label,.energy-target small){color:#b1c2a3}
+[data-theme=dark] .tip-flower{color:#455a39}
+[data-theme=dark] .tip-line{background:#5c7150}
+[data-theme=dark] :is(.result-hint,.energy-row){border-color:#43563a}
+[data-theme=dark] :is(.result-badge,.energy-target,.article-takeaway){background:#354932}
+[data-theme=dark] .result-symbol{color:#afc89e}
+[data-theme=dark] .art-0{background:#30402f;color:#b8cc9d}
+[data-theme=dark] .art-1{background:#453a30;color:#dcb38e}
+[data-theme=dark] .art-2{background:#2f403c;color:#a2c5ba}
+[data-theme=dark] .article-art:before,[data-theme=dark] .article-art:after{border-color:#ffffff15}
+[data-theme=dark] :is(input[type=number],select){background:#17211b;color:var(--ink);border-color:#4b5b45}
+[data-theme=dark] input::placeholder{color:#96a48e}
+[data-theme=dark] .check-label{color:#b1bcad}
+[data-theme=dark] .check-label input{accent-color:#adc6a0}
+[data-theme=dark] .filters button{background:#1c2720;color:#b7c7ac}
+[data-theme=dark] .filters button.active{background:#adc6a0;color:#18271c}
+[data-theme=dark] .dialog-bar{background:var(--bg);color:#adbf9e}
+[data-theme=dark] .dialog-bar button{background:#2f412f;color:#d7e5ca}
+[data-theme=dark] :is(#dialog-content ul,#dialog-content ol){color:#b1bcad}
+[data-theme=dark] .heading-tag{border-color:#3b4d34}
+[data-theme=dark] .skip{background:#adc6a0;color:#18271c}
+@media(max-width:600px){.topbar>div{gap:10px}.theme-toggle{width:30px;height:30px}}

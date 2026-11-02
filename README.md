@@ -2,6 +2,7 @@
 
 Deutschsprachige, responsive Webapp rund ums gesunde Abnehmen. **Ohne Kalorientracker.**
 
+- Heller und dunkler Modus mit Systemerkennung und lokal gespeicherter Auswahl
 - Übersicht mit Einstieg in drei Schritten
 - BMI und Gewichtsbereich zur Orientierung für Erwachsene
 - Energiebedarf und moderates Kaloriendefizit nach Mifflin-St Jeor
